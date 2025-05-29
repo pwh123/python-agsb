@@ -27,7 +27,7 @@ ARGO_PORT = int(os.environ.get('ARGO_PORT', 8001))                          # Ar
 CFIP = os.environ.get('CFIP', 'www.visa.com.tw')                            # 优选域名或优选ip
 CFPORT = int(os.environ.get('CFPORT', 443))                                 # 优选域名或优选ip对应端口
 NAME = os.environ.get('NAME', 'Vls')                                        # 节点名称
-PORT = int(os.environ.get('SERVER_PORT') or os.environ.get('PORT') or 3000) # 订阅端口，如无法订阅，请手动修改为分配的端口
+PORT = int(os.environ.get('SERVER_PORT') or os.environ.get('PORT') or 32100) # 订阅端口，如无法订阅，请手动修改为分配的端口
 
 # Create directory if it doesn't exist
 if not os.path.exists(FILE_PATH):
