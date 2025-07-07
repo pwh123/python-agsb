@@ -1,2 +1,4 @@
+rich
 Flask
 requests
+pyOpenSSL
