@@ -14,8 +14,8 @@ jobs:
 
       - name: Create empty commit
         run: |
-          git config --local user.email "pwhpp@outlook.com"
-          git config --local user.name "peng-123258"
+          git config --local user.email "pwh1234567@gmail.com.com"
+          git config --local user.name "peng123"
           git commit --allow-empty -m "Empty commit to keep repository active"
           git push
 
